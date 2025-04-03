@@ -1,0 +1,34 @@
+package br.fiap.fornecedor;
+
+public class Fornecedor {
+
+    private String nome;
+    private long cnpj;
+
+    public Fornecedor(String nome, long cnpj) {
+        this.cnpj = cnpj;
+        this.nome = nome;
+    }
+
+    //acessa variável
+    public String getNome(){
+        return nome;
+    }
+
+    //altera valor da variável
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
+    public long getCnpj() {
+        return cnpj;
+    }
+
+    public void setCnpj(long cnpj) {
+        this.cnpj = cnpj;
+    }
+
+
+
+
+}
